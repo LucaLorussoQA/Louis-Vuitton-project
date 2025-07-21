@@ -34,13 +34,13 @@ sleep(1)
 driver.find_element(By.XPATH, "//a[@href='/eng-us/men/shoes/all-shoes/_/N-t118ht95']").click()
 sleep(3)
 
-#click Accessories
-Accessories = wait.until(EC.element_to_be_clickable((By.ID,'w-category-cat10155-button')))
-Accessories.click()
-
-#click Scarves
-Scarves = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR,"[href*='accessories/scarves']")))
-Scarves.click()
+# #click Accessories
+# Accessories = wait.until(EC.element_to_be_clickable((By.ID,'w-category-cat10155-button')))
+# Accessories.click()
+#
+# #click Scarves
+# Scarves = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR,"[href*='accessories/scarves']")))
+# Scarves.click()
 
 
 
